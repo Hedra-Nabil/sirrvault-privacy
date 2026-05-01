@@ -144,3 +144,17 @@ body {
 .cta:hover {
   background: #1f2937;
 }
+
+.cta-danger {
+  display: inline-block;
+  background: #b91c1c;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.cta-danger:hover {
+  background: #991b1b;
+}
