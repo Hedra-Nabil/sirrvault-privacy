@@ -6,6 +6,7 @@ Simple static website for Sirrvault, published on Vercel.
 - `index.html` - Home
 - `privacy.html` - Privacy Policy
 - `terms.html` - Terms and Conditions
+- `delete-account.html` - Google Play account deletion request page
 
 ## Contact
 - `hedranabil614@gmail.com`
