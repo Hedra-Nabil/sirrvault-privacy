@@ -1,9 +1,10 @@
-# Sirrvault Privacy Site
+# Sirrvault Website
 
-Static legal pages for Sirrvault, published on Vercel.
+Simple static website for Sirrvault, published on Vercel.
 
 ## Pages
-- `index.html` - Privacy Policy
+- `index.html` - Home
+- `privacy.html` - Privacy Policy
 - `terms.html` - Terms and Conditions
 
 ## Contact
