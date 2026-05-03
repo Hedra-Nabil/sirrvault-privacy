@@ -1,12 +1,16 @@
-# Sirrvault Website
+# SirrVault Website
 
-Simple static website for Sirrvault, published on Vercel.
+Product-focused static website for SirrVault, published on Vercel.
 
 ## Pages
-- `index.html` - Home
+- `index.html` - Product landing page with feature and screenshot sections
 - `privacy.html` - Privacy Policy
 - `terms.html` - Terms and Conditions
 - `delete-account.html` - Google Play account deletion request page
+
+## Assets
+- `assets/logo.png` - Product logo
+- `assets/screen-*.jpeg` - App screenshots used on the product page
 
 ## Contact
 - `hedranabil614@gmail.com`
