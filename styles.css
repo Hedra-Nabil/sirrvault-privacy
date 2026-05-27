@@ -442,27 +442,42 @@ a {
 }
 
 .section {
-  width: min(860px, calc(100% - 40px));
-  margin: 30px auto 70px;
+  width: min(980px, calc(100% - 40px));
+  margin: 40px auto 78px;
   background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 34px 26px;
+  padding: 44px 42px;
+  text-align: start;
 }
 
 .section h1 {
   margin-top: 0;
   color: var(--ink);
+  font-size: clamp(34px, 4.2vw, 52px);
+  line-height: 1.1;
 }
 
 .section h2 {
-  margin-top: 30px;
+  margin-top: 34px;
   color: var(--ink);
+  font-size: clamp(24px, 2.6vw, 34px);
+  line-height: 1.18;
 }
 
 .section h3 {
   margin-top: 18px;
   color: #1f2937;
+}
+
+.section p,
+.section li {
+  font-size: 17px;
+}
+
+.section ul,
+.section ol {
+  padding-inline-start: 26px;
 }
 
 .highlight {
@@ -520,6 +535,14 @@ a {
 [dir="rtl"] .highlight {
   border-left: 0;
   border-right: 4px solid #2563eb;
+}
+
+[dir="rtl"] .section {
+  text-align: right;
+}
+
+[dir="ltr"] .section {
+  text-align: left;
 }
 
 @media (max-width: 960px) {
@@ -587,5 +610,11 @@ a {
 
   .pricing-panel {
     padding: 24px;
+  }
+
+  .section {
+    width: min(100% - 28px, 980px);
+    padding: 28px 20px;
+    margin-top: 24px;
   }
 }
